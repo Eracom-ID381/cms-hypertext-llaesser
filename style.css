@@ -1,0 +1,85 @@
+
+@font-face {
+ font-family: "SuisseIntl-SemiBold";
+ src: url("/fonts/SuisseIntl-SemiBold.otf")
+}
+body {
+  background: white;
+  font-family: SuisseIntl-SemiBold, sans-serif;
+  font-size: 2rem;
+  background-color: black;
+  margin: 0vh 50vh 0vh;
+
+}
+
+a {
+  font-weight: bold;
+}
+a{
+	color: white;
+	text-align: center;
+
+
+}
+img {
+	width:60vh;
+	margin: 10px auto 20px;
+	display: block;
+	margin-top: 3vh;
+	margin-bottom: 0;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+	}
+ #Gump{
+ 	width:30vh;
+ 	margin: 10px auto 20px;
+ 	display: block;
+ 	margin-top: 3vh;
+ 	margin-bottom: 0;
+ 	}
+#kid{
+	width:50vh;
+}
+#splash{
+	width:49vh;
+	margin: 0vh 0vh 0vh;
+	margin-top: 3vh;
+
+
+}
+#run{
+	width:49vh;
+	margin: 0vh 0vh 0vh;
+	margin-top: 3vh;
+
+}
+#bureau{
+	width:49vh;
+
+}
+p{
+	text-align: center;
+	background-color: white;
+
+}
+
+/* #container {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+} */
+
+.box {
+  width: 75%;
+  margin: 5px;
+  text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+p, li {
+}
+
+li {
+  list-style: none;
+}
